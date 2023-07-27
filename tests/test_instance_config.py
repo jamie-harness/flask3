@@ -4,7 +4,7 @@ import pytest
 
 import flask
 
-
+# test
 def test_explicit_instance_paths(modules_tmp_path):
     with pytest.raises(ValueError, match=".*must be absolute"):
         flask.Flask(__name__, instance_path="instance")
