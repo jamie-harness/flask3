@@ -11,7 +11,7 @@ from flask.globals import request_ctx
 
 @pytest.fixture(scope="session", autouse=True)
 def _standard_os_environ():
-    """Set up ``os.environ`` at the start of the test session to have
+    """Set up ``os.environ`` at the start of the test session to have 
     standard values. Returns a list of operations that is used by
     :func:`._reset_os_environ` after each test.
     """
