@@ -13,7 +13,7 @@ http_method_funcs = frozenset(
 
 
 class View:
-    """Subclass this class and override :meth:`dispatch_request` to
+    """Subclass this class and override :meth:`dispatch_request` to 
     create a generic class-based view. Call :meth:`as_view` to create a
     view function that creates an instance of the class with the given
     arguments and calls its ``dispatch_request`` method with any URL
