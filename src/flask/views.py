@@ -7,6 +7,7 @@ from .globals import current_app
 from .globals import request
 
 
+
 http_method_funcs = frozenset(
     ["get", "post", "head", "options", "delete", "put", "trace", "patch"]
 )
