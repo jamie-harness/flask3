@@ -25,7 +25,7 @@ from .templating import _default_template_ctx_processor
 if t.TYPE_CHECKING:  # pragma: no cover
     from .wrappers import Response
 
-# a singleton sentinel value for parameter defaults
+# a singleton sentinel value for parameter defaults comment
 _sentinel = object()
 
 F = t.TypeVar("F", bound=t.Callable[..., t.Any])
