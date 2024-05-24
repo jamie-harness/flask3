@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jamie_harness_flask3_1716563870436-push-trigger-input-set
+  identifier: Build_jamie_harness_flask3_1716563870436pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Nofar
+  pipeline:
+    identifier: Build_jamie_harness_flask3_1716563870436
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
